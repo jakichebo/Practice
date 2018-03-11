@@ -34,7 +34,7 @@ body {
       <ul class="nav navbar-nav">
        <li class="navListItem"><a href="test.html">Home</a></li>
 	     <li class="navListItem active"><a href="contact.html">Contact</a></li>
-		 <li class="navListItem">< href="Thankyou.html">Thank you</li>
+          <li class="navListItem"><a href="thankyou.html">Thank you</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -44,7 +44,8 @@ body {
 <header><img src="assets/Images/logo.jpg" width="80" height="80" alt="Jaki Designer for test"/></header>
 <section class="sectionRight">
  <h2>Contact</h2>
- <form method="post" name="form1" id="form1" action="formmail.php">
+ <form action="formmail.php" method="post" name="form1" id="form1"
+       enctype="application/x-www-form-urlencoded">
  
    <label for="textfield">Name:</label>
 	 <br>
