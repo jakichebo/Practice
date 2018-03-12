@@ -93,7 +93,10 @@ nav {
 	font-style: normal;
 	font-weight: 400;
 	color: #558678;
-}	
+}
+.myForm {
+	width: 100%;
+}
 
 @media (max-width: 650px) {
 .asideLeft {
